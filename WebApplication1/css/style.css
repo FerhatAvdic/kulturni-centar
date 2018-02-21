@@ -91,3 +91,15 @@ footer{
 .seats-left:hover, .seats-middle:hover, .seats-right:hover{
     background-color: #3B1B67;
 }
+
+
+header.carousel {
+    height: 500px;
+}
+.admin-login-form{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px slategray solid;
+    padding: 15px;
+    border-radius: 5px;
+}

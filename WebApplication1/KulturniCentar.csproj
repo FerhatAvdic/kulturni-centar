@@ -66,10 +66,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app.js" />
+    <Content Include="controllers\adminBoardController.js" />
+    <Content Include="controllers\adminLoginController.js" />
+    <Content Include="controllers\contactController.js" />
+    <Content Include="controllers\homeController.js" />
+    <Content Include="controllers\reservationController.js" />
+    <Content Include="controllers\showsController.js" />
+    <Content Include="controllers\showItemController.js" />
     <Content Include="css\style.css" />
+    <Content Include="routes.js" />
+    <Content Include="server.js" />
+    <Content Include="views\adminLogin.html" />
+    <Content Include="views\home.html" />
     <Content Include="img\07350e892ea22cc020a64fc26f062a6e.jpg" />
     <Content Include="img\4e9656_0408dee09b414f729d24defc80ae8b2c.jpg" />
     <Content Include="img\The-cast-of-THE-DROWSY-CHAPERONE-at-the-Norris-Center..jpg" />
+    <Content Include="js\angular-route.min.js" />
+    <Content Include="js\angular.min.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -87,36 +101,36 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="404.html" />
-    <Content Include="about.html" />
-    <Content Include="blog-home-1.html" />
-    <Content Include="blog-home-2.html" />
-    <Content Include="blog-post.html" />
-    <Content Include="contact.html" />
+    <Content Include="UnnecessaryPages\404.html" />
+    <Content Include="UnnecessaryPages\about.html" />
+    <Content Include="UnnecessaryPages\blog-home-1.html" />
+    <Content Include="UnnecessaryPages\blog-home-2.html" />
+    <Content Include="UnnecessaryPages\blog-post.html" />
+    <Content Include="views\contact.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\modern-business.css" />
-    <Content Include="faq.html" />
+    <Content Include="UnnecessaryPages\faq.html" />
     <Content Include="font-awesome\css\font-awesome.css" />
     <Content Include="font-awesome\css\font-awesome.min.css" />
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="full-width.html" />
+    <Content Include="UnnecessaryPages\full-width.html" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\contact_me.js" />
     <Content Include="js\jqBootstrapValidation.js" />
     <Content Include="js\jquery.js" />
-    <Content Include="portfolio-1-col.html" />
-    <Content Include="portfolio-2-col.html" />
-    <Content Include="portfolio-3-col.html" />
-    <Content Include="portfolio-4-col.html" />
-    <Content Include="portfolio-item.html" />
-    <Content Include="pricing.html" />
-    <Content Include="reservations.html" />
-    <Content Include="services.html" />
-    <Content Include="sidebar.html" />
+    <Content Include="UnnecessaryPages\portfolio-1-col.html" />
+    <Content Include="views\shows.html" />
+    <Content Include="UnnecessaryPages\portfolio-3-col.html" />
+    <Content Include="UnnecessaryPages\portfolio-4-col.html" />
+    <Content Include="views\showItem.html" />
+    <Content Include="UnnecessaryPages\pricing.html" />
+    <Content Include="views\reservations.html" />
+    <Content Include="UnnecessaryPages\services.html" />
+    <Content Include="UnnecessaryPages\sidebar.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
